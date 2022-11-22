@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root{
+    --green: #00DF9A;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green-dark: #2c8b6d;
+
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: var(--black);
+}
+
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+    background-color: var(--black);
+}
+
+nav{
+    position: fixed;
+    max-width: 1440px;
+    height: 109px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #000000;
+    z-index: 200;
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    box-sizing: border-box;
+    width: 344px;
+    height: 62px;
+    font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: var(--white);
+text-decoration: none;
+transition: all ease 0.30s;
+}
+.logo:hover{
+    color: var(--green);
+}
+
+nav .menu-items{
+    display: flex;
+    gap: 40px;
+}
+
+nav .menu-items a{
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+color: var(--white);
+text-decoration: none;
+transition: all ease 0.30s;
+}
+
+nav .menu-items a:hover{
+    color: var(--green);
+    text-decoration: underline;
+
+}
+
+.sign-in-button{
+    cursor: pointer;
+background: var(--green);
+border-radius: 12px;
+width: 193px;
+height: 33px;
+font-weight: 600;
+font-size: 18px;
+transition: all ease 0.30s;
+}
+
+.sign-in-button:hover{
+    background-color: var(--green-dark);
+}
+
+.sign-in{
+    position: absolute;
+    top: 19%;
+    left: 48%;
+    color: var(--white);
+    font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 65px;
+width: 163px;
+height: 65px;
+}
+
+.image-acc{
+    position: fixed;
+    left: 35%;
+    right: 66%;
+    top: 36%;
+}
+
+.user-name{
+    position: absolute;
+    width: 97px;
+    height: 26px;
+    left: 38%;
+    top: 33.5%;
+    
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--white);
+    
+}
+
+.user-text{
+    position: absolute;
+    width: 519px;
+    height: 27px;
+    left: 35%;
+    top: 40%;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+
+.password{
+    position: absolute;
+    width: 97px;
+    height: 26px;
+    left: 38%;
+    top: 45%;
+    
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--white);
+    
+}
+
+.password-text{
+    position: absolute;
+    width: 519px;
+    height: 27px;
+    left: 35%;
+    top: 51.5%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.image-pass{
+    position: fixed;
+    left: 35%;
+    top: 47.5%;
+
+}
+
+.login{
+    cursor: pointer;
+position: absolute;
+width: 193px;
+height: 33px;
+left: 47%;
+top: 58%;
+font-weight: 700;
+font-size: 15px;
+background: #00DF9A;
+border-radius: 12px;
+transition: all ease 0.30s;
+}
+
+.login:hover{
+    background-color: var(--green-dark);
+}

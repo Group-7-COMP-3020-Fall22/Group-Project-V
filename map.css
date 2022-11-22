@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root{
+    --green: #00DF9A;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green-dark: #2c8b6d;
+
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: var(--black);
+}
+
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+    background-color: var(--black);
+}
+
+nav{
+    position: fixed;
+    max-width: 1440px;
+    height: 109px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #000000;
+    z-index: 200;
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    box-sizing: border-box;
+    width: 344px;
+    height: 62px;
+    font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: var(--white);
+text-decoration: none;
+transition: all ease 0.30s;
+}
+.logo:hover{
+    color: var(--green);
+}
+
+nav .menu-items{
+    display: flex;
+    gap: 40px;
+}
+
+nav .menu-items a{
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+color: var(--white);
+text-decoration: none;
+transition: all ease 0.30s;
+}
+
+nav .menu-items a:hover{
+    color: var(--green);
+    text-decoration: underline;
+
+}
+
+.sign-in-button{
+    cursor: pointer;
+background: var(--green);
+border-radius: 12px;
+width: 193px;
+height: 33px;
+font-weight: 600;
+font-size: 18px;
+transition: all ease 0.30s;
+}
+
+.sign-in-button:hover{
+    background-color: var(--green-dark);
+}
+
+.cs{
+/* Computer Science */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 420px;
+height: 62px;
+left: 34%;
+top: 15%;
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+
+color: var(--white);
+}
+
+.description{
+    position: absolute;
+
+    left: 2%;
+    top: 25%;
+    color: var(--white);
+    font-weight: 700;
+font-size: 25px;
+line-height: 32px;
+
+}
+
+.csinfo{
+    position: absolute;
+width: 1186px;
+height: 68px;
+left: 2%;
+top: 29%;
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 17px;
+letter-spacing: 0.05em;
+
+color: var(--white);
+}
+.treecourses{
+    position: absolute;
+    top:37%;
+    left: 2%;
+    font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 32px;
+color: var(--white);
+
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,8,51,0.9)),url(images);
+}
+
+.node {
+
+  font-size: 2em;
+  display: block; 
+  float: left;
+  width: 200px ;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(228, 198, 198);
+  padding-top: 15px;
+ 
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+ 
+
+#node1240
+{
+    position:absolute;
+ left: 10%;
+ top: 44%;
+ background-color: var(--green);
+ border-radius: 12px;
+ font-weight: 700;
+font-size: 25px;
+line-height: 32px;
+
+}
+
+#node1010
+{
+
+    position: absolute;
+    top: 34%;
+    left: 30%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+  
+}
+
+#node1300
+{
+ 
+    position: absolute;
+    top: 34%;
+    left: 70%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+}
+
+#node1500
+{
+ position: absolute;
+    top: 34%;
+    left: 50%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+  
+}
+
+
+#node1020
+{
+ 
+    position: absolute;
+    top: 44%;
+    left: 30%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+}
+
+#node1700
+{
+ 
+
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+}
+
+
+#node2160
+{
+ 
+    position: absolute;
+    top: 54%;
+    left: 30%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+}
+
+#node3460
+{
+ 
+    position:absolute;
+ left: 10%;
+ top: 34%;
+ background-color: var(--green);
+ border-radius: 12px;
+ font-weight: 700;
+font-size: 25px;
+line-height: 32px;
+  
+}
+#node2180
+{
+ 
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+}
+
+#node2140
+{
+ 
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+  
+}
+
+#node3380{
+
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+
+}
+
+#node3190{
+
+    position: absolute;
+    top: 64%;
+    left: 30%;
+    background-color: var(--green);
+    border-radius: 12px;
+    font-weight: 700;
+   font-size: 25px;
+   line-height: 32px;
+
+}
+
+.comp-1010-info{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    color: var(--black);
+}
+
+#course-info{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+width: 200px;
+background-color: #FFFFFF;
+box-sizing: border-box;
+visibility: hidden;
+border-radius: 15px;
+font-size: 10px;
+}
+
+.add-course-2140{
+
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+
+
+
+
+#declare-major{
+    position: absolute;
+    top:37%;
+    left: 80%;
+    color: var(--white);
+
+}

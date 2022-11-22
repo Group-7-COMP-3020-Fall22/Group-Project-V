@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css"/>
+    <title>Computer Science</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+            crossorigin="anonymous">
+    </script>
+    <script src="jquery.hoverDelay.js"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <a href="" class="logo" id ="logo">Know My Major</a>
+            
+            <div class="menu-items">
+                <a href="index.html">Home</a>
+                <a href="#">My Schedule</a>
+                <a href="sign-in.html">
+                <div class="sign-in">
+                    <button class="sign-in-button">Sign In</button></a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <h1 class="cs">
+            Computer Science
+        </h1>
+        <h1 class="description">
+            Description:
+        </h1>
+
+        <p class="csinfo">
+            The computer science major program is a 120-credit hour degree program in the Faculty of Science that provides a solid background for a career in computer science. 
+Major students are eligible for the co-op program and specialization areas.To enter the program students must have completed 24 credit hours with a minimum 2.0 GPA
+ a minimum grade of C+ in COMP 1020, a C+ in both MATH 1300 and MATH 1500 as well as a C in MATH 1700.A minimum GPA of 2.0 must be maintained to remain in the program.
+
+        </p>
+
+        <h1 class="treecourses">
+            Tree of courses:
+        </h1>
+
+        
+        <div   class="node" id="node1240">
+            <input type="checkbox" id="check1240" >
+
+          
+            Math 1240
+           
+        </div>
+        
+        <div class="node" id="node1010">
+           
+            <input type="checkbox" id="check1010">
+            Comp 1010
+            
+        </div>
+
+
+        <div class="node" id="node1500">
+            <input type="checkbox" id="check1500">
+            Math 1500 
+        </div>
+
+        
+        <div class="node" id="node1300">
+            <input type="checkbox" id="check1300" >
+            Math 1300
+            
+        </div>
+
+        
+       
+        <div class="node" id="node1020">
+            <input type="checkbox" id="check1020" >
+            Comp 1020
+           
+        </div>
+
+        <div class="node" id="node1700">
+            <input type="checkbox" id="check1700" >
+            Math 1700
+           
+        </div>
+
+        <div class="node" id="node2160">
+            <input type="checkbox" id="check2160" >
+            Comp 2160
+         
+        </div>
+        
+        <div class="node" id="node2180">
+            <input type="checkbox" id="check2180" >
+            Comp 2080
+            
+        </div>
+
+        
+        <div class="node" id="node3460">
+            <input type="checkbox" id="check3460" >
+            Stat 1000
+           
+        </div>
+
+        
+
+
+        <div class="node" id="node3190">
+            <input type="checkbox" id="check3190" onclick="validateF('node3190')" >
+            Comp 3190
+         
+        </div>
+
+        <div class="courseinfo2140">
+    
+            <div class="node" id="node2140" onclick="showDiv()">
+            <input type="checkbox" id="check2140" >
+            Comp 2140
+            </div>
+            <div id="course-info">
+                <h2>COMP 2140</h2>
+                <p> Data Structures and Algorithms Introduction to the representation and manipulation of data structures. Topics will include lists, stacks, queues, trees, and graphs. </p>
+                <button class="add-course-2140" id = "2140btn" onclick="changeBtnText('#2140btn','Added to the schedule')">Add To Schedule</button>
+            </div>
+            
+                
+
+                
+            
+        </div>
+
+        
+
+    
+    
+
+        <div class="node" id="node3380">
+            <input type="checkbox" id="check3380" >
+            Comp 3380
+            
+        </div>
+        
+        
+        </div>
+
+
+    </main>
+</body>
+<script src="second.js"></script>
+
+</html>

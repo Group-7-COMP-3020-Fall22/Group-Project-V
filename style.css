@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root{
+    --green: #00DF9A;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green-dark: #2c8b6d;
+
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: var(--black);
+}
+
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+    background-color: var(--black);
+}
+
+nav{
+    position: absolute;
+    max-width: 1440px;
+    height: 109px;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    background: #000000;
+    z-index: 200;
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    box-sizing: border-box;
+    width: 344px;
+    height: 62px;
+    font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: var(--white);
+text-decoration: none;
+transition: all ease 0.30s;
+}
+.logo:hover{
+    color: var(--green);
+}
+
+nav .menu-items{
+    display: flex;
+    gap: 40px;
+}
+
+nav .menu-items a{
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+color: var(--white);
+text-decoration: none;
+transition: all ease 0.30s;
+}
+
+nav .menu-items a:hover{
+    color: var(--green);
+    text-decoration: underline;
+
+}
+
+.sign-in-button{
+    cursor: pointer;
+background: var(--green);
+border-radius: 12px;
+width: 193px;
+height: 33px;
+font-weight: 600;
+font-size: 18px;
+transition: all ease 0.30s;
+}
+
+.sign-in-button:hover{
+    background-color: var(--green-dark);
+}
+
+.main-page{
+    display: flex;
+    align-items: center;
+}
+
+.high-school-msg{
+    position: fixed;
+width: 100%;
+height: 44px;
+top: 25%;
+left: 5%;
+right: 95%;
+padding-left: 200px;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 44px;
+
+color: var(--green);
+
+}
+
+.get-started-msg{
+    position: fixed;
+    width: 100%;
+    height: 44px;
+    top:35%;
+    left: 3%;
+    right: 97%;
+    padding-left: 200px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    
+    color: var(--white);
+}
+
+.get-started-btn{
+cursor: pointer;
+position: fixed;
+
+
+box-shadow: 0px 4px 4px 27px rgba(0, 0, 0, 0.25);
+position: absolute;
+width: 447px;
+height: 95px;
+left: 35%;
+top: 50%;
+font-weight: 700;
+font-size: 36px;
+background-color: var(--green);
+transition: all ease 0.30s;
+}
+
+.get-started-btn:hover{
+    background-color: var(--green-dark);
+}
+

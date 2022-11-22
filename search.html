@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="searchcss.css"/>
+    <script src="autocomplete.js"></script>
+
+
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <a href="" class="logo">Know My Major</a>
+            
+            <div class="menu-items">
+                <a href="index.html">Home</a>
+                <a href="#">My Schedule</a>
+                <div class="sign-in">
+                    <a href="sign-in.html">
+                    <button class="sign-in-button">Sign In</button>
+                </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-main-page">
+        <h1 class="start-msg">
+            START KNOWING MORE ABOUT YOUR <span class="orange">FUTURE</span>
+        </h1>
+        <div action="" class="form">
+            <div class="submit">
+            <input type="text" placeholder="Enter Your Major" onKeyUp="showResults(this.value)" class="major-text">
+            <a href="map.html">
+                <button  class="submit">Submit</button>
+            </a>
+            <div id="result"></div>
+
+        </div>
+    
+</body>
+</html>
